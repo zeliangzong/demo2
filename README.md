@@ -33,10 +33,13 @@
 
 
 1. 模型训练
+
        python train.py
+
 2. demo示例
+ 
        python demo.py
 
 ###TO-DO List
-  - 增加目标跟踪
-  - 滤除非向下运动的目标
+  - [ ] 增加目标跟踪
+  - [ ] 滤除非向下运动的目标
