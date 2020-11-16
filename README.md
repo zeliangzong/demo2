@@ -45,3 +45,9 @@
   - [x] 抛物检测
   - [ ] 增加目标跟踪
   - [ ] 滤除非向下运动的目标
+  
+###Detection Result
+ Backbone | map  | FPS
+ ---- | ----- | ------  
+ ResNet-50| 79.3 | 31 
+
