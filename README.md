@@ -30,14 +30,16 @@
        python fake_image_merge.py
 
 ###目标检测
-- 数据及标注文件按照VOC2007格式存放 
-
+- 数据及标注文件按照VOC2007格式存放,登录八卡服务器集群，用户名zzl，密码zongzeliang
 
 1. 模型训练
 
+       . ~/miniconda/bin/activate
+       conda activate FADA
+       cd SSD
        python train.py
 
-2. demo示例
+2. demo示例,结果存放在demo/results下
  
        python demo.py
 
